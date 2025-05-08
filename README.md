@@ -68,7 +68,7 @@ python view_weights.py ssd_resnet_weights.pth
 
 To evaluate mAP, precision, recall:
 ```bash
-python evaluate_model.py --annotations path/to/annotations.json --images_dir path/to/validation/images
+python datasets/coco/evaluate_model.py --annotations "datasets/coco/annotations/instances_val2017.json" --images_dir "datasets/coco/val2017" --threshold 0.05 --use_tta --multi_scale
 ```
 you can get the files from the kaggle dataset: https://www.kaggle.com/datasets/sabahesaraki/2017-2017
 from there, download **annotations_trainval2017** and **val2017**
