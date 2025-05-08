@@ -37,7 +37,7 @@ python ssd_resnet_image.py -i input/image_0.jpg
 
 You can view the resulting image in the output directory
 
-## Example Outputs;
+## Example Outputs
 
 - image_0.jpg:
   
@@ -57,8 +57,21 @@ You can view the resulting image in the output directory
 > *well technically its a cat ☝️🤓*
 
 
+## View Weights
 
+To view weights and other params of the model, run:
+```bash
+python view_weights.py ssd_resnet_weights.pth
+```
 
+## Evaluation metrics
+
+To evaluate mAP, precision, recall:
+```bash
+python evaluate_model.py --annotations path/to/annotations.json --images_dir path/to/validation/images
+```
+you can get the files from the kaggle dataset: https://www.kaggle.com/datasets/sabahesaraki/2017-2017
+from there, download **annotations_trainval2017** and **val2017**
 
 
 

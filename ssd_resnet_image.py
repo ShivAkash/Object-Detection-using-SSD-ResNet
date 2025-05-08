@@ -29,6 +29,10 @@ ssd_model.to(device)
 ssd_model.eval()
 utils = torch.hub.load('NVIDIA/DeepLearningExamples:torchhub', 'nvidia_ssd_processing_utils')
 
+# save model weights
+torch.save(ssd_model.state_dict(), "ssd_resnet_weights.pth")
+print("Model weights saved to ssd_resnet_weights.pth")
+
 # read image
 image_path = args['input']
 image = cv2.imread(image_path)

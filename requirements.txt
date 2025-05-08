@@ -2,3 +2,6 @@ torch
 torchvision
 opencv-python
 scikit-image
+pycocotools
+tqdm
+numpy
