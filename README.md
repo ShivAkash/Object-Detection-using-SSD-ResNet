@@ -37,6 +37,26 @@ python ssd_resnet_image.py -i input/image_0.jpg
 
 You can view the resulting image in the output directory
 
+## Example Outputs;
+
+- image_0.jpg:
+  
+![image_0](https://github.com/user-attachments/assets/6690aada-f405-4f38-8d9a-11221e6b24a5)
+> *get it? hehe!*
+
+
+- image_1.jpg:
+  
+![image_1](https://github.com/user-attachments/assets/3ce97290-c3f9-4f4f-b6d3-c93d3b097d9c)
+> *GREAT SCOTT!*
+
+
+- image_2.jpg:
+  
+![image_2](https://github.com/user-attachments/assets/6d4fbc89-705a-43df-adba-d2a398cacb72)
+> *well technically its a cat ☝️🤓*
+
+
 
 
 
